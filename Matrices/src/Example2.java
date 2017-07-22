@@ -1,0 +1,11 @@
+
+public class Example2 {
+	public static void main(String[] args) {
+		int i=10;
+		if((i>10?i++:--i)<10){
+			System.out.print("Foo");
+		}
+		System.out.println("Bar");
+	}
+
+}
